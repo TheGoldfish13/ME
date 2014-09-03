@@ -1,7 +1,7 @@
 #headerid{
 	width:750px;
 	height:95px; 
-	margin:40px 0px 0px 190px;
+	margin:0px 0px 0px 190px;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 	border-radius: 3px;
@@ -19,45 +19,73 @@
 body{
 	background-image: url('http://www.urbansurf.net/wp-content/uploads/2013/12/beautiful-purple-sunset.jpg');
 	background-size: 100%;
+	background-size:cover;
 }
 .circular {
 	width: 150px;
 	height: 150px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;	
+}
+#cf {
+  	position:relative;
+  	margin:0 auto;
+  	height:281px;
+  	width:450px;
+}
+
+#cf img {
+  	position:absolute;
+  	left:0;
+  	-webkit-transition: opacity 1s ease-in-out;
+  	-moz-transition: opacity 1s ease-in-out;
+  	-o-transition: opacity 1s ease-in-out;
+  	transition: opacity 1s ease-in-out;
+	width: 170px;
+	height: 170px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	//background: url(http://a4.files.biography.com/image/upload/c_fill,g_face,h_300,q_80,w_300/MTE1ODA0OTcxNjMzNjQwOTcz.jpg) no-repeat;
-	background-size: 100%;	
-	margin:20px 0px 0px 600px;
-	opacity:.9; 
+	margin: 45px 0px 0px 100px;
+
+}
+
+#cf img.top:hover {
+  	opacity:0;
+}
+#linkbox{
+	margin: 20px 0px 0px 20px;
 }
 #aboutme{
 	background: rgba(2, 0, 11, 0.9);
 	width:1120px;
 	margin:50px 0px 0px 0px; 
 	text-align: center;
-	height: 400px;
+	height: 600px;
+	padding:18px 0px 0px 0px;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 	border-radius: 2px;
 	-khtml-border-radius: 10px
 }
-#cf {
-  position:relative;
-  margin:0 auto;
-  height:281px;
-  width:450px;
+#meheader{
+	font-size:35px;
+	color: white;
+	font-family: 'Laila', serif;
+	border-bottom: 1px solid gray; 
 }
-
-#cf img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+#stuff{
+	font-size:25px;
+	color: white;
+	font-family: 'Source Serif Pro', serif;
+	padding: 15px 0px 0px 0px;
 }
-
-#cf img.top:hover {
-  opacity:0;
+#mestuff{
+	font-size:21px;
+	color: white;
+	font-family: 'Source Serif Pro', serif;
+	padding: 20px 20px 0px 20px;
+	text-align: left;
+}
 }
