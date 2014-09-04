@@ -76,7 +76,7 @@ body{
 	border-bottom: 1px solid gray; 
 }
 #stuff{
-	font-size:25px;
+	font-size:29px;
 	color: white;
 	font-family: 'Source Serif Pro', serif;
 	padding: 15px 0px 0px 0px;
@@ -87,5 +87,39 @@ body{
 	font-family: 'Source Serif Pro', serif;
 	padding: 20px 20px 0px 20px;
 	text-align: left;
+}
+
+#nav-toggle { position: absolute; left: 2%; top: 3%; }
+
+
+#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 5px;
+  height: 5px;
+  width: 37px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 450ms ease-in-out;
+}
+#nav-toggle:hover span:before, #nav-toggle:hover span:after {
+  top: 0;
+}
+#nav-toggle:hover span:before {
+  transform: rotate(450deg);
+}
+#nav-toggle:hover span:after {
+  transform: rotate(-450deg);
 }
 }
