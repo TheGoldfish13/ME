@@ -16,7 +16,7 @@
 	
 
 }
-body{
+#body1{
 	background-image: url('http://www.urbansurf.net/wp-content/uploads/2013/12/beautiful-purple-sunset.jpg');
 	background-size: 100%;
 	background-size:cover;
@@ -89,6 +89,7 @@ body{
 	text-align: left;
 }
 
+/*Yes Dan, i know how the stuff below this comment works*/
 #nav-toggle { position: absolute; left: 2%; top: 3%; }
 
 
@@ -111,7 +112,7 @@ body{
 }
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  transition: all 450ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 #nav-toggle:hover span:before, #nav-toggle:hover span:after {
   top: 0;
@@ -132,6 +133,9 @@ body{
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 	border-radius: 2px;
-	-khtml-border-radius: 10px
+	-khtml-border-radius: 10px;
+	font-size:24px;
+	color:white;
+	font-family: 'Source Serif Pro';
 }
 }
