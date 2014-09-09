@@ -13,8 +13,6 @@
 	font-family: 'Courgette', cursive;
 	letter-spacing: 3px;
 	background: rgba(253, 144, 253, 0.6);
-	
-
 }
 #body1{
 	background-image: url('http://www.urbansurf.net/wp-content/uploads/2013/12/beautiful-purple-sunset.jpg');
@@ -112,16 +110,16 @@
 }
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  transition: all 400ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 #nav-toggle:hover span:before, #nav-toggle:hover span:after {
   top: 0;
 }
 #nav-toggle:hover span:before {
-  transform: rotate(450deg);
+  transform: rotate(270deg);
 }
 #nav-toggle:hover span:after {
-  transform: rotate(-450deg);
+  transform: rotate(-270deg);
 }
 #findme{
 	background: rgba(2, 0, 11, 0.9);
@@ -138,4 +136,52 @@
 	color:white;
 	font-family: 'Source Serif Pro';
 }
+#body2{
+	background-image: url('http://img1.wikia.nocookie.net/__cb20130730212209/bindingofisaac/images/5/50/Wiki-background');
+	background-size: 100%;
+}
+#header2{
+	height:90px; 
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 5px;
+	-khtml-border-radius: 10px;
+	text-align: center;
+	font-size:52px;
+	padding: 11px 0px 0px 0px;
+	box-sizing: border-box;
+	letter-spacing: 3px;
+	background: rgba(255,255,255, 0.8);
+	margin-top: 50px;
+	font-family: 'Source Serif Pro', serif;
+}
+#containtest{
+	height:500px;
+}
+#test1{
+	margin-top: 50px;
+	background: rgba(2, 0, 11, 0.7);
+	height: 600px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 6px;
+	-khtml-border-radius: 10px;
+}
+#cookieimg{
+	opacity: 0.7;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 4px;
+	-khtml-border-radius: 10px;
+	margin-top: 30px;
+	height: 260px;
+}
+#cookietext{
+	font-size:23px;
+	font-family: 'Source Serif Pro', serif;
+	color:white;
+	letter-spacing: 1px;
+	padding:300px 10px 0px 10px;
+	margin-top: 20px;
+	line-height: 35px
 }
