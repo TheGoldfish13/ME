@@ -173,7 +173,8 @@
 	letter-spacing: 1px;
 	padding:300px 10px 0px 20px;
 	margin-top: 20px;
-} 
+}
+ /* Parallax stuff*/
 .slide {
     position: relative;
     padding: 25vh 10%;
@@ -227,6 +228,7 @@
 #slide4 {
   background: #222;
 }
+/*end of css,beginning of mobile friendly*/
 @media screen and (max-width:320px) {
 #headerid{
 	height:105px; 
