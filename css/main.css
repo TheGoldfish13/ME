@@ -12,6 +12,7 @@
 	letter-spacing: 3px;
 	background: rgba(2, 0, 11, 0.9);
 	color: white;
+	margin-top: 50px;
 }
 #body1{
 	perspective: 1px;
@@ -20,8 +21,8 @@
     overflow-x: hidden;
 }
 .circular {
-	width: 150px;
-	height: 150px;
+	width: 190px;
+	height: 190px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;	
@@ -29,8 +30,7 @@
 #cf {
   	position:relative;
   	margin:0 auto;
-  	height:281px;
-  	width:450px;
+  	height:190px;
 }
 
 #cf img {
@@ -40,17 +40,25 @@
   	-moz-transition: opacity 1s ease-in-out;
   	-o-transition: opacity 1s ease-in-out;
   	transition: opacity 1s ease-in-out;
-	width: 170px;
-	height: 170px;
+	width: 180px;
+	height: 180px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	margin: 0px 0px 0px 100px;
-
+	margin: 0px;
+}
+.center{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 #cf img.top:hover {
   	opacity:0;
+}
+#please{
+	display: block;
+	margin-left: 40%;
 }
 #linkbox{
 	margin: 20px 0px 0px 20px;
@@ -88,7 +96,7 @@
 }
 
 /*Yes Dan, i know how the stuff below this comment works*/
-#nav-toggle { position: absolute; left: 2%; top: 3%; }
+#nav-toggle { position: absolute; left: 3%; top: 2%; }
 
 
 #nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
@@ -222,4 +230,77 @@
 
 #slide4 {
   background: #222;
+}
+@media screen and (max-width:320px) {
+#headerid{
+	height:105px; 
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 3px;
+	-khtml-border-radius: 10px;
+	text-align: center;
+	font-size:35px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Noto Serif', serif;
+	letter-spacing: 3px;
+	background: rgba(2, 0, 11, 0.9);
+	color: white;
+	width:100%;
+}
+#please{
+	display: block;
+	margin-left: 10%;
+}
+#cf img {
+  	position:absolute;
+  	left:0;
+  	-webkit-transition: opacity 1s ease-in-out;
+  	-moz-transition: opacity 1s ease-in-out;
+  	-o-transition: opacity 1s ease-in-out;
+  	transition: opacity 1s ease-in-out;
+	width: 160px;
+	height: 160px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	margin: 0px;
+}
+#meheader{
+	font-size:30px;
+	color: white;
+	font-family: 'Laila', serif;
+	border-bottom: 1px solid gray; 
+}
+#stuff{
+	font-size:20px;
+	color: white;
+	font-family: 'Source Serif Pro', serif;
+	padding: 15px 9px 0px 9px;
+}
+#mestuff{
+	font-size:17px;
+	color: white;
+	font-family: 'Source Serif Pro', serif;
+	padding: 20px 0px 0px 13px;
+	text-align: center;
+}
+#aboutme{
+	background: rgba(2, 0, 11, 0.9);
+	margin-left:4%;
+	text-align: center;
+	height: 700px;
+	padding:20px 0px 0px 0px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 2px;
+	-khtml-border-radius: 10px;
+	margin-top:50px;
+	height: 1000px;
+}
+#title {
+  background-image: url('http://www.urbansurf.net/wp-content/uploads/2013/12/beautiful-purple-sunset.jpg');
+  background-attachment: fixed; 
+  height:2500px;
+}
 }
