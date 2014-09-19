@@ -325,7 +325,7 @@
 #test1{
 	margin-top: 50px;
 	background: rgba(2, 0, 11, 0.7);
-	height: 650px;
+	height: 610px;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 	border-radius: 6px;
@@ -340,20 +340,20 @@
 	border-radius: 4px;
 	-khtml-border-radius: 10px;
 	margin-top: 30px;
-	height: 260px;
+	height: 200px;
 }
 #cookietext{
 	font-size:18px;
 	font-family: 'Source Serif Pro', serif;
 	color:white;
 	letter-spacing: 1px;
-	padding:280px 0px 0px 15px;
+	padding:220px 0px 0px 15px;
 	margin-top: 20px;
 	height: 700px;
 } 
 #slide2 {
   background-image: url('http://img1.wikia.nocookie.net/__cb20130730212209/bindingofisaac/images/5/50/Wiki-background');
   background-attachment: fixed;
-  height: 1810px;
+  height: 1710px;
 }
 }
