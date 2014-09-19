@@ -129,13 +129,9 @@
 #nav-toggle:hover span:after {
   transform: rotate(-270deg);
 }
-
-#body2{
-	background-image: url('http://img1.wikia.nocookie.net/__cb20130730212209/bindingofisaac/images/5/50/Wiki-background');
-	background-size: 100%;
-}
 #header2{
 	height:90px; 
+	width: 50%;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 	border-radius: 5px;
@@ -146,7 +142,7 @@
 	box-sizing: border-box;
 	letter-spacing: 3px;
 	background: rgba(255,255,255, 0.8);
-	margin-top: 50px;
+	margin-left: 25%;
 	font-family: 'Source Serif Pro', serif;
 }
 #containtest{
@@ -162,7 +158,7 @@
 	-khtml-border-radius: 10px;
 }
 #cookieimg{
-	opacity: 0.7;
+	opacity: 0.8;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 	border-radius: 4px;
@@ -303,4 +299,52 @@
   background-attachment: fixed; 
   height:2300px;
 }
+
+/*end of style-izing for 1st page slide thingy*/
+
+#header2{
+	height:90px; 
+	width: 55%;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 4px;
+	-khtml-border-radius: 10px;
+	text-align: center;
+	font-size:32px;
+	box-sizing: border-box;
+	letter-spacing: 3px;
+	background: rgba(255,255,255, 0.8);
+	font-family: 'Source Serif Pro', serif;
+	line-height: 35px;
+}
+#containtest{
+	height:500px;
+}
+#test1{
+	margin-top: 50px;
+	background: rgba(2, 0, 11, 0.7);
+	height: 700px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 6px;
+	-khtml-border-radius: 10px;
+}
+#cookieimg{
+	opacity: 0.7;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	border-radius: 4px;
+	-khtml-border-radius: 10px;
+	margin-top: 30px;
+	height: 260px;
+}
+#cookietext{
+	font-size:23px;
+	font-family: 'Source Serif Pro', serif;
+	color:white;
+	letter-spacing: 1px;
+	padding:300px 10px 0px 20px;
+	margin-top: 20px;
+} 
+
 }
