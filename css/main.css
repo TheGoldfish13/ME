@@ -67,7 +67,7 @@
 	background: rgba(2, 0, 11, 0.9);
 	margin:0px 0px 0px 0px; 
 	text-align: center;
-	height: 700px;
+	height: 630px;
 	padding:20px 0px 0px 0px;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -271,35 +271,34 @@
 	border-bottom: 1px solid gray; 
 }
 #stuff{
-	font-size:20px;
+	font-size:19px;
 	color: white;
 	font-family: 'Source Serif Pro', serif;
-	padding: 15px 9px 0px 9px;
+	padding: 15px 5px 0px 5px;
 }
 #mestuff{
 	font-size:17px;
 	color: white;
 	font-family: 'Source Serif Pro', serif;
-	padding: 20px 0px 0px 13px;
+	padding: 20px 6px 0px 6px;
 	text-align: center;
 }
 #aboutme{
 	background: rgba(2, 0, 11, 0.9);
 	margin-left:4%;
 	text-align: center;
-	height: 700px;
 	padding:20px 0px 0px 0px;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 	border-radius: 2px;
 	-khtml-border-radius: 10px;
 	margin-top:50px;
-	height: 1680px;
+	height: 1515px;
 }
 #title {
   background-image: url('http://www.urbansurf.net/wp-content/uploads/2013/12/beautiful-purple-sunset.jpg');
   background-attachment: fixed; 
-  height:2300px;
+  height:2200px;
 }
 
 /*end of style-izing for 1st page slide thingy*/
