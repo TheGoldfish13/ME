@@ -61,7 +61,9 @@
 	margin-left: 40%;
 }
 #linkbox{
-	margin: 20px 0px 0px 20px;
+	padding: 10px 0px 0px 20px;
+	background: rgba(10, 10, 10, 1);
+	display: block;
 }
 #aboutme{
 	background: rgba(2, 0, 11, 0.9);
@@ -228,7 +230,14 @@
 #slide4 {
   background: #222;
 }
-/*end of css,beginning of mobile friendly*/
+#movepls{
+	margin-bottom:2px; 
+}
+
+
+/*beginning of mobile friendly*/
+
+
 @media screen and (max-width:320px) {
 #headerid{
 	height:105px; 
@@ -308,7 +317,7 @@
 	width: 55%;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-	border-radius: 4px;
+	border-radius: 3px;
 	-khtml-border-radius: 10px;
 	text-align: center;
 	font-size:32px;
@@ -353,6 +362,6 @@
 #slide2 {
   background-image: url('http://img1.wikia.nocookie.net/__cb20130730212209/bindingofisaac/images/5/50/Wiki-background');
   background-attachment: fixed;
-  height: 1710px;
+  height: 1610px;
 }
 }
