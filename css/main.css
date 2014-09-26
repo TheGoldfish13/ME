@@ -62,8 +62,8 @@
 }
 #linkbox{
 	padding: 10px 0px 0px 20px;
-	background: rgba(10, 10, 10, 1);
 	display: block;
+	margin-top: 26%;
 }
 #aboutme{
 	background: rgba(2, 0, 11, 0.9);
@@ -218,7 +218,7 @@
 #slide2 {
   background-image: url('http://img1.wikia.nocookie.net/__cb20130730212209/bindingofisaac/images/5/50/Wiki-background');
   background-attachment: fixed;
-  height: 1200px;
+  height: 1130px;
 }
 
 #slide3:before {
