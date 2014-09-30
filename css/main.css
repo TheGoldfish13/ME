@@ -63,7 +63,8 @@
 #linkbox{
 	padding: 10px 0px 0px 20px;
 	display: block;
-	margin-top: 26%;
+	background: rgba(10, 10, 10, 1);
+	width: 100%;
 }
 #aboutme{
 	background: rgba(2, 0, 11, 0.9);
@@ -163,7 +164,7 @@
 	opacity: 0.8;
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-	border-radius: 4px;
+	border-radius: 5px;
 	-khtml-border-radius: 10px;
 	margin-top: 30px;
 	height: 260px;
